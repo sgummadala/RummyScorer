@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECCAC82C2DA4B0AA00BAAB9A /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCAC82A2DA4ACA100BAAB9A /* GameManager.swift */; };
+		ECCAC82D2DA4B0B300BAAB9A /* GameDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCAC8282DA4ABDC00BAAB9A /* GameDetailView.swift */; };
+		ECCAC82E2DA4B0B800BAAB9A /* GameHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCAC8272DA4ABCA00BAAB9A /* GameHistoryView.swift */; };
+		ECCAC82F2DA4B0BD00BAAB9A /* AddScoreView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCAC8262DA4ABBC00BAAB9A /* AddScoreView2.swift */; };
+		ECCAC8302DA4B0C100BAAB9A /* CurrentGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCAC8252DA4ABAF00BAAB9A /* CurrentGameView.swift */; };
+		ECCAC8312DA4B0C700BAAB9A /* NewGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCAC8242DA4ABA300BAAB9A /* NewGameView.swift */; };
+		ECCAC8322DA4B0CC00BAAB9A /* RummyScorerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCAC8232DA4AB9700BAAB9A /* RummyScorerApp.swift */; };
+		ECCAC8332DA4B0D100BAAB9A /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCAC82B2DA4AF9F00BAAB9A /* Models.swift */; };
+		ECCAC8362DA5818900BAAB9A /* RoundScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCAC8352DA5818000BAAB9A /* RoundScoreView.swift */; };
+		ECCAC8382DA5831B00BAAB9A /* CurrentGameView_old.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCAC8372DA5830000BAAB9A /* CurrentGameView_old.swift */; };
+		ECCAC83A2DAAE70B00BAAB9A /* AddScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCAC8392DAAE6F700BAAB9A /* AddScoreView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECCAC8032DA4A60C00BAAB9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECCAC7ED2DA4A60B00BAAB9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECCAC7F42DA4A60B00BAAB9A;
+			remoteInfo = RummyScorer;
+		};
+		ECCAC80D2DA4A60C00BAAB9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECCAC7ED2DA4A60B00BAAB9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECCAC7F42DA4A60B00BAAB9A;
+			remoteInfo = RummyScorer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECCAC7F52DA4A60B00BAAB9A /* RummyScorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RummyScorer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECCAC8022DA4A60C00BAAB9A /* RummyScorerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RummyScorerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECCAC80C2DA4A60C00BAAB9A /* RummyScorerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RummyScorerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECCAC8202DA4A69900BAAB9A /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		ECCAC8212DA4A6A200BAAB9A /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		ECCAC8232DA4AB9700BAAB9A /* RummyScorerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RummyScorerApp.swift; sourceTree = "<group>"; };
+		ECCAC8242DA4ABA300BAAB9A /* NewGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewGameView.swift; sourceTree = "<group>"; };
+		ECCAC8252DA4ABAF00BAAB9A /* CurrentGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentGameView.swift; sourceTree = "<group>"; };
+		ECCAC8262DA4ABBC00BAAB9A /* AddScoreView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddScoreView2.swift; sourceTree = "<group>"; };
+		ECCAC8272DA4ABCA00BAAB9A /* GameHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameHistoryView.swift; sourceTree = "<group>"; };
+		ECCAC8282DA4ABDC00BAAB9A /* GameDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDetailView.swift; sourceTree = "<group>"; };
+		ECCAC82A2DA4ACA100BAAB9A /* GameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
+		ECCAC82B2DA4AF9F00BAAB9A /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		ECCAC8352DA5818000BAAB9A /* RoundScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundScoreView.swift; sourceTree = "<group>"; };
+		ECCAC8372DA5830000BAAB9A /* CurrentGameView_old.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentGameView_old.swift; sourceTree = "<group>"; };
+		ECCAC8392DAAE6F700BAAB9A /* AddScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddScoreView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		ECCAC8342DA4C42A00BAAB9A /* Exceptions for "RummyScorer" folder in "RummyScorer" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				RummyScorerApp.swift,
+			);
+			target = ECCAC7F42DA4A60B00BAAB9A /* RummyScorer */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		ECCAC7F72DA4A60B00BAAB9A /* RummyScorer */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				ECCAC8342DA4C42A00BAAB9A /* Exceptions for "RummyScorer" folder in "RummyScorer" target */,
+			);
+			path = RummyScorer;
+			sourceTree = "<group>";
+		};
+		ECCAC8052DA4A60C00BAAB9A /* RummyScorerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RummyScorerTests;
+			sourceTree = "<group>";
+		};
+		ECCAC80F2DA4A60C00BAAB9A /* RummyScorerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RummyScorerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECCAC7F22DA4A60B00BAAB9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECCAC7FF2DA4A60C00BAAB9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECCAC8092DA4A60C00BAAB9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECCAC7EC2DA4A60B00BAAB9A = {
+			isa = PBXGroup;
+			children = (
+				ECCAC8292DA4AC9200BAAB9A /* Managers */,
+				ECCAC8222DA4AB3D00BAAB9A /* View Files */,
+				ECCAC81F2DA4A67B00BAAB9A /* Models */,
+				ECCAC7F72DA4A60B00BAAB9A /* RummyScorer */,
+				ECCAC8052DA4A60C00BAAB9A /* RummyScorerTests */,
+				ECCAC80F2DA4A60C00BAAB9A /* RummyScorerUITests */,
+				ECCAC7F62DA4A60B00BAAB9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECCAC7F62DA4A60B00BAAB9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECCAC7F52DA4A60B00BAAB9A /* RummyScorer.app */,
+				ECCAC8022DA4A60C00BAAB9A /* RummyScorerTests.xctest */,
+				ECCAC80C2DA4A60C00BAAB9A /* RummyScorerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECCAC81F2DA4A67B00BAAB9A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ECCAC82B2DA4AF9F00BAAB9A /* Models.swift */,
+				ECCAC8212DA4A6A200BAAB9A /* Game.swift */,
+				ECCAC8202DA4A69900BAAB9A /* Player.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ECCAC8222DA4AB3D00BAAB9A /* View Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECCAC8392DAAE6F700BAAB9A /* AddScoreView.swift */,
+				ECCAC8352DA5818000BAAB9A /* RoundScoreView.swift */,
+				ECCAC8282DA4ABDC00BAAB9A /* GameDetailView.swift */,
+				ECCAC8272DA4ABCA00BAAB9A /* GameHistoryView.swift */,
+				ECCAC8262DA4ABBC00BAAB9A /* AddScoreView2.swift */,
+				ECCAC8252DA4ABAF00BAAB9A /* CurrentGameView.swift */,
+				ECCAC8372DA5830000BAAB9A /* CurrentGameView_old.swift */,
+				ECCAC8242DA4ABA300BAAB9A /* NewGameView.swift */,
+				ECCAC8232DA4AB9700BAAB9A /* RummyScorerApp.swift */,
+			);
+			path = "View Files";
+			sourceTree = "<group>";
+		};
+		ECCAC8292DA4AC9200BAAB9A /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				ECCAC82A2DA4ACA100BAAB9A /* GameManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECCAC7F42DA4A60B00BAAB9A /* RummyScorer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECCAC8162DA4A60C00BAAB9A /* Build configuration list for PBXNativeTarget "RummyScorer" */;
+			buildPhases = (
+				ECCAC7F12DA4A60B00BAAB9A /* Sources */,
+				ECCAC7F22DA4A60B00BAAB9A /* Frameworks */,
+				ECCAC7F32DA4A60B00BAAB9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				ECCAC7F72DA4A60B00BAAB9A /* RummyScorer */,
+			);
+			name = RummyScorer;
+			packageProductDependencies = (
+			);
+			productName = RummyScorer;
+			productReference = ECCAC7F52DA4A60B00BAAB9A /* RummyScorer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECCAC8012DA4A60C00BAAB9A /* RummyScorerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECCAC8192DA4A60C00BAAB9A /* Build configuration list for PBXNativeTarget "RummyScorerTests" */;
+			buildPhases = (
+				ECCAC7FE2DA4A60C00BAAB9A /* Sources */,
+				ECCAC7FF2DA4A60C00BAAB9A /* Frameworks */,
+				ECCAC8002DA4A60C00BAAB9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECCAC8042DA4A60C00BAAB9A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				ECCAC8052DA4A60C00BAAB9A /* RummyScorerTests */,
+			);
+			name = RummyScorerTests;
+			packageProductDependencies = (
+			);
+			productName = RummyScorerTests;
+			productReference = ECCAC8022DA4A60C00BAAB9A /* RummyScorerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ECCAC80B2DA4A60C00BAAB9A /* RummyScorerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECCAC81C2DA4A60C00BAAB9A /* Build configuration list for PBXNativeTarget "RummyScorerUITests" */;
+			buildPhases = (
+				ECCAC8082DA4A60C00BAAB9A /* Sources */,
+				ECCAC8092DA4A60C00BAAB9A /* Frameworks */,
+				ECCAC80A2DA4A60C00BAAB9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECCAC80E2DA4A60C00BAAB9A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				ECCAC80F2DA4A60C00BAAB9A /* RummyScorerUITests */,
+			);
+			name = RummyScorerUITests;
+			packageProductDependencies = (
+			);
+			productName = RummyScorerUITests;
+			productReference = ECCAC80C2DA4A60C00BAAB9A /* RummyScorerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECCAC7ED2DA4A60B00BAAB9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					ECCAC7F42DA4A60B00BAAB9A = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					ECCAC8012DA4A60C00BAAB9A = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = ECCAC7F42DA4A60B00BAAB9A;
+					};
+					ECCAC80B2DA4A60C00BAAB9A = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = ECCAC7F42DA4A60B00BAAB9A;
+					};
+				};
+			};
+			buildConfigurationList = ECCAC7F02DA4A60B00BAAB9A /* Build configuration list for PBXProject "RummyScorer" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECCAC7EC2DA4A60B00BAAB9A;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = ECCAC7F62DA4A60B00BAAB9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECCAC7F42DA4A60B00BAAB9A /* RummyScorer */,
+				ECCAC8012DA4A60C00BAAB9A /* RummyScorerTests */,
+				ECCAC80B2DA4A60C00BAAB9A /* RummyScorerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECCAC7F32DA4A60B00BAAB9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECCAC8002DA4A60C00BAAB9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECCAC80A2DA4A60C00BAAB9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECCAC7F12DA4A60B00BAAB9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECCAC8322DA4B0CC00BAAB9A /* RummyScorerApp.swift in Sources */,
+				ECCAC8302DA4B0C100BAAB9A /* CurrentGameView.swift in Sources */,
+				ECCAC82F2DA4B0BD00BAAB9A /* AddScoreView2.swift in Sources */,
+				ECCAC8362DA5818900BAAB9A /* RoundScoreView.swift in Sources */,
+				ECCAC82D2DA4B0B300BAAB9A /* GameDetailView.swift in Sources */,
+				ECCAC82C2DA4B0AA00BAAB9A /* GameManager.swift in Sources */,
+				ECCAC83A2DAAE70B00BAAB9A /* AddScoreView.swift in Sources */,
+				ECCAC8332DA4B0D100BAAB9A /* Models.swift in Sources */,
+				ECCAC82E2DA4B0B800BAAB9A /* GameHistoryView.swift in Sources */,
+				ECCAC8382DA5831B00BAAB9A /* CurrentGameView_old.swift in Sources */,
+				ECCAC8312DA4B0C700BAAB9A /* NewGameView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECCAC7FE2DA4A60C00BAAB9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECCAC8082DA4A60C00BAAB9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECCAC8042DA4A60C00BAAB9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECCAC7F42DA4A60B00BAAB9A /* RummyScorer */;
+			targetProxy = ECCAC8032DA4A60C00BAAB9A /* PBXContainerItemProxy */;
+		};
+		ECCAC80E2DA4A60C00BAAB9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECCAC7F42DA4A60B00BAAB9A /* RummyScorer */;
+			targetProxy = ECCAC80D2DA4A60C00BAAB9A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ECCAC8142DA4A60C00BAAB9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ECCAC8152DA4A60C00BAAB9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECCAC8172DA4A60C00BAAB9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SriramG.RummyScorer.RummyScorer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECCAC8182DA4A60C00BAAB9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SriramG.RummyScorer.RummyScorer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ECCAC81A2DA4A60C00BAAB9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SriramG.RummyScorer.RummyScorerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RummyScorer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RummyScorer";
+			};
+			name = Debug;
+		};
+		ECCAC81B2DA4A60C00BAAB9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SriramG.RummyScorer.RummyScorerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RummyScorer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RummyScorer";
+			};
+			name = Release;
+		};
+		ECCAC81D2DA4A60C00BAAB9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SriramG.RummyScorer.RummyScorerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RummyScorer;
+			};
+			name = Debug;
+		};
+		ECCAC81E2DA4A60C00BAAB9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SriramG.RummyScorer.RummyScorerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RummyScorer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECCAC7F02DA4A60B00BAAB9A /* Build configuration list for PBXProject "RummyScorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECCAC8142DA4A60C00BAAB9A /* Debug */,
+				ECCAC8152DA4A60C00BAAB9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECCAC8162DA4A60C00BAAB9A /* Build configuration list for PBXNativeTarget "RummyScorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECCAC8172DA4A60C00BAAB9A /* Debug */,
+				ECCAC8182DA4A60C00BAAB9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECCAC8192DA4A60C00BAAB9A /* Build configuration list for PBXNativeTarget "RummyScorerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECCAC81A2DA4A60C00BAAB9A /* Debug */,
+				ECCAC81B2DA4A60C00BAAB9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECCAC81C2DA4A60C00BAAB9A /* Build configuration list for PBXNativeTarget "RummyScorerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECCAC81D2DA4A60C00BAAB9A /* Debug */,
+				ECCAC81E2DA4A60C00BAAB9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECCAC7ED2DA4A60B00BAAB9A /* Project object */;
+}
